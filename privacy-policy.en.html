@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — RATD: Arena Defense</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1f23; --muted: #5a606b; --line: #dde1e7; --accent: #1f5fbf; --note: #fff6db; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15171b; --fg: #e8eaee; --muted: #a4abb7; --line: #2c3038; --accent: #7fb0ff; --note: #3a3320; }
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  p, li { overflow-wrap: anywhere; }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  .todo { background: var(--note); padding: 0 4px; border-radius: 3px; }
+  .lang { float: right; font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+<p class="lang"><a href="privacy-policy.ru.html">Русский</a></p>
+<h1>Privacy Policy</h1>
+<p class="meta">RATD: Arena Defense (Android, com.zatogames.ratd) · Zato Games<br>Effective date: November 10, 2026</p>
+
+<h2>1. Summary</h2>
+<ul>
+  <li>The game has no user accounts. We do not ask for your name, email address, phone number, contacts, photos or location.</li>
+  <li>Your progress and settings are stored on your device.</li>
+  <li>For online co-op, the app connects to our game server (in the current version the server is not yet running). The server receives your connection's IP address only to deliver match data and does not write it to its logs.</li>
+  <li>The Android version shows ads through the Yandex Mobile Ads SDK, which sends data to Yandex (see section 5).</li>
+  <li>We do not sell data.</li>
+</ul>
+
+<h2>2. Who is responsible for the game</h2>
+<p>RATD: Arena Defense is published by Zato Games ("we", "us"). This policy covers the Android app com.zatogames.ratd. Privacy questions: <a href="mailto:alexxx.8.94@gmail.com">alexxx.8.94@gmail.com</a>.</p>
+
+<h2>3. Data stored on your device</h2>
+<p>The game stores the following on your device:</p>
+<ul>
+  <li>your saved solo game, so you can continue it later;</li>
+  <li>your best result and the stars earned in the campaign;</li>
+  <li>interface language, sound on/off, music and effects volume;</li>
+  <li>your ad-related choice and the time an ad was last shown (used to show ads no more than once every 10 minutes).</li>
+</ul>
+<p>This data is not sent to us. Co-op games are not saved. If Android backup is turned on, the system may include app data in a backup stored in your Google account under Google's rules; we have no access to that backup.</p>
+<p>You can delete this data by clearing the app's data in Android settings or by uninstalling the game.</p>
+
+<h2>4. Co-op play</h2>
+<h3>Online through our server</h3>
+<p>When you choose to play online, the app connects to the Zato Games game server. It sends:</p>
+<ul>
+  <li>a six-character room code;</li>
+  <li>a random seat key created for the match, which lets you rejoin after a dropped connection;</li>
+  <li>game commands (for example, acquiring and upgrading abilities) and the match state.</li>
+</ul>
+<p>To keep the connection open, the server technically receives your device's IP address and port. The server software does not write IP addresses to its logs and does not keep them after the connection closes. Server logs contain only service records: the room code, which seats in the room are connected, the total number of rooms and connections, and traffic volume.</p>
+<p>Match data is kept in the server's memory only while the game is running. A room is deleted about 30 seconds after the match ends, or 3 minutes after all players disconnect. The server keeps no player profiles, match history or rankings.</p>
+<p>In the current version the game server is not yet running and online play is unavailable. Before it launches, we will name the hosting provider and hosting country here; the provider may process network data under its own terms.</p>
+<p><strong>Encryption.</strong> In the current version, the connection to the game server is not encrypted. It carries only the game data listed above; the game has no chat and no fields for entering personal information.</p>
+
+<h3>Play nearby (local network)</h3>
+<p>In Play nearby mode, two devices on the same Wi-Fi network exchange match data directly. To find a game, the app sends a broadcast message on the local network with a random game name. This data does not pass through our server. The local network connection is not encrypted.</p>
+
+<h2>5. Advertising (Yandex)</h2>
+<p>In the Android version, a full-screen ad may be shown after a completed match when you return to the main menu, no more than once every 10 minutes. Ads are never shown during a battle. Ads are provided by the Yandex Mobile Ads SDK from Yandex, which includes AppMetrica components.</p>
+<p>According to Yandex, the SDK may collect device identifiers (for example, the advertising ID, if the app has the corresponding permission) and send them to Yandex, together with your IP address and technical device information needed to load ads. Yandex uses this data to display ads, manage ad targeting and measure ad performance. Yandex states that SDK data is sent over HTTPS/TLS.</p>
+<p>In the current version, the game:</p>
+<ul>
+  <li>tells the SDK that consent to personalized ads has not been given;</li>
+  <li>turns off location sharing and does not request location access;</li>
+  <li>enables the SDK's age-restricted data collection mode;</li>
+  <li>does not send Yandex your name, email address or any player identifiers of our own.</li>
+</ul>
+<p>If these settings change, we will update this policy before releasing that version.</p>
+<p>You can reset or delete your advertising ID in Android settings (Google → Ads, or Privacy → Ads, depending on the device).</p>
+<p>How Yandex processes data: <a href="https://yandex.com/legal/confidential/">Yandex Privacy Policy</a>.</p>
+
+<h2>6. Analytics</h2>
+<p>We do not use our own analytics and do not enable Unity analytics or diagnostics services. Data processed by Yandex advertising components (including AppMetrica) is described in section 5.</p>
+
+<h2>7. Sharing</h2>
+<p>We do not sell or share the data received by our game server with other companies, except for processing by the hosting provider that is necessary to run the server, and where required by law.</p>
+
+<h2>8. Children</h2>
+<p>The game is intended for teenagers aged 13 and over and for adults, and is not directed to children under 13. We do not knowingly collect personal data from children. If you believe a child has given us personal data, contact us and we will delete it.</p>
+
+<h2>9. Your choices</h2>
+<ul>
+  <li>On-device data: clear the app's data or uninstall the game.</li>
+  <li>Data on our server is deleted automatically after the match (section 4); there are no accounts to delete.</li>
+  <li>Data processed by Yandex: reset your advertising ID in Android settings and use the options described in the Yandex policy.</li>
+  <li>Other questions and requests: <a href="mailto:alexxx.8.94@gmail.com">alexxx.8.94@gmail.com</a>.</li>
+</ul>
+
+<h2>10. Changes to this policy</h2>
+<p>If this policy changes, we will update the effective date on this page. We will mention significant changes in the game's update notes.</p>
+
+<h2>11. Contact</h2>
+<p>Zato Games · <a href="mailto:alexxx.8.94@gmail.com">alexxx.8.94@gmail.com</a></p>
+</main>
+</body>
+</html>
